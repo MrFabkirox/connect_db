@@ -1,6 +1,14 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# config
+config
+keys.js
+config.env
+npm-debug.log
+nodemon.json
+
 # dependencies
-package-lock.json
-/node_modules
+node_modules
 /.pnp
 .pnp.js
 
@@ -11,6 +19,7 @@ package-lock.json
 /build
 
 # misc
+*.swp
 .DS_Store
 .env.local
 .env.development.local
@@ -23,4 +32,3 @@ yarn-error.log*
 
 # variables
 nodemon.json
-config
